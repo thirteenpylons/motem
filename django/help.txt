@@ -1,0 +1,14 @@
+using a virtual environment:
+	python -m venv 13pyenv(only needed to create the venv)
+	
+	@Windows
+	# be in this directory:(run the cmd /k on activate.bat)
+	C:\Users\p2806225\Desktop\Projects\Git\13py\13pyenv\Scripts>cmd /k activate.bat
+	
+	# starting the project in django(in virtual environment)
+	django-admin startproject (name) # named mine myshop
+	
+	# this will NOT work with my windows build:
+	source 13pyenv/scripts/activate (While using bash)
+	@deactivate venv:
+		deactivate(LOL)
